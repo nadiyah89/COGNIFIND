@@ -1,0 +1,47 @@
+# Flutter/Dart/Pub
+.dart_tool/
+.packages
+pubspec.lock
+
+# Build outputs
+/build/
+**/build/
+android/app/release/
+android/app/debug/
+
+# iOS
+DerivedData/
+ios/Flutter/.last_build_id
+ios/Runner.xcworkspace/
+
+# Android
+android/.gradle/
+android/local.properties
+android/key.properties
+
+# Google Maps API Key (DO NOT COMMIT)
+android/app/src/main/res/values/google_maps_api.xml
+
+# Environment config files
+.env*
+*.env
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# macOS
+macos/Flutter/ephemeral/
+
+# Web
+web/.dart_tool/
+
+# Windows build
+windows/flutter/ephemeral/
+
+# Linux build
+linux/flutter/ephemeral/
+
+# Generated plugin registrant
+**/generated_plugin_registrant.*
